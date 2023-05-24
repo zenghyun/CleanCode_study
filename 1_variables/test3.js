@@ -9,7 +9,6 @@
 
 var globalVar = 'global';
 
-// let timer = 123;
 console.log(globalVar);
 console.log(window);
 

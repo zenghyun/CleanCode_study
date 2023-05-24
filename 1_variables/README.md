@@ -1,4 +1,5 @@
 # var를 지양하자 
+## [변수에 대하여](https://despiteallthat.tistory.com/221)
 
 ## var
 함수 스코프
@@ -135,7 +136,7 @@ function getDateTime(targetDate) {
 <br>
 
 # 호이스팅 
-호이스팅은 선언과 할당을 분리된 것을 말한다. 
+호이스팅은 선언과 할당이 분리된 것을 말한다. 
 
 [변수 호이스팅이란?](https://despiteallthat.tistory.com/71)
 

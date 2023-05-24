@@ -11,7 +11,7 @@
 const global = '전역';
 
 if (global === '전역') {
-    let global = '지역';
+    const global = '지역';
 
     console.log(global); // 지역
 }
