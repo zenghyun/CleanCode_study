@@ -1,4 +1,5 @@
 # Abstruction
+## [Abstruction](https://despiteallthat.tistory.com/234)
 
 ## Magic Number
 
@@ -90,9 +91,9 @@ const notiValidName = value => {
 <br>
 
 ### 💡 대표적인 케이스 
-- camelCase // JS
+- CamelCase // JS
 - PascalCase // 함수, 클래스 
-- kebab-case // NPM 패키지, 저장소 등등
+- Kebab-case // NPM 패키지, 저장소 등등
 - SNAKE_CASE // 상수 
 
 <br>
