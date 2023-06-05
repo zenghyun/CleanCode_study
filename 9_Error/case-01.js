@@ -53,7 +53,6 @@ function handleSubmit() {
     } finally {
         // 데이터 분석을 위한 로그 
     }
-
 }
 
 // ⭐️ try-catch를 사용할 때는 모든 구문을 try에 넣자 ⭐️
