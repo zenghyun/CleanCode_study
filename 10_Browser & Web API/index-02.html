@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Data Attribute -->
+    <!-- <h1 안녕="하세요">Hello World</h1>  -->
+    <!-- <main hello="world">main</main> -->
+
+    <input type="text" class="" id="" />
+
+    <main
+      id="electriccars"
+      data-columns="3"
+      data-index-number="12314"
+      data-parent-world="cars"
+    >
+      main
+    </main>
+    <script>
+      const main = document.getElementById("electriccars");
+
+      console.log(main.dataset.columns); // '3'
+      console.log(main.dataset.indexNumber); // '12314'
+      console.log(main.dataset.parentWorld); // 'cars'
+      delete main.dataset.parentWorld;
+    </script>
+  </body>
+</html>
